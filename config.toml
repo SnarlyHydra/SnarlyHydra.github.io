@@ -113,8 +113,8 @@ enableRobotsTXT = true
       #avatarURL = "/images/sw.jpeg" Find image for you and take away hash
       avatarAlt = "Temporary avatar"
       title = "SnarlyHydra"
-      subtitle = "Edit me - Below picture"
-      disclaimer = "Edit me - longer"
+      subtitle = "Edit me - Below picture" # edit this
+      disclaimer = "Edit me - longer" # edit this
       typeit = true
       social = true #whether to show social icons on homepage
 
