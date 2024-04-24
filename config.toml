@@ -1,7 +1,7 @@
-baseURL = "https://swiftlaggy.github.io/"
+baseURL = "https://snarlyhydra.github.io/"
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "Jamie Gunner" # This appears in tab bar
+title = "SnarlyHydra" # This appears in tab bar
 timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
@@ -40,17 +40,17 @@ enableRobotsTXT = true
 
 [params]
   version = "0.2.X"
-  description = "Website for Jamie Gunner."
-  keywords = ["Jamie", "Gunner", "Jamie Gunner", "Hacking", "Ethical", "Ethical Hacking", "CV", "Projects"]
+  description = "Website for SnarlyHydra."
+  keywords = ["SnarlyHydra", "Snarly", "Hydra", "Gaming", "Coding", "VFX", "C#", "Projects"]
   defaultTheme = "dark"
-  gitRepo = "https://github.com/SwiftLaggy/SwiftLaggy.github.io"
+  gitRepo = "https://github.com/SnarlyHydra/SnarlyHydra.github.io"
   fingerprint = ""
   dateFormat = "2006-01-02"
    images = ["/images/sw.svg"] #favicon (I think)
 
   [params.app]
   # How site will appear on mobile
-    title = "Jamie Gunner"
+    title = "SnarlyHydra"
     noFavicon = true
     svgFavicon = "/images/sw.svg"
     # Android browser
@@ -80,7 +80,7 @@ enableRobotsTXT = true
     [params.header.title]
       # URL of the LOGO
       #logo = "/images/sw.jpeg"
-      name = "Jamie Gunner" # appears in header
+      name = "SnarlyHydra" # appears in header
       pre = ""
       post = ""
       typeit = false
@@ -112,9 +112,9 @@ enableRobotsTXT = true
       # For the avatar pic on the homepage
       avatarURL = "/images/sw.jpeg"
       avatarAlt = "Temporary avatar"
-      title = "Jamie Gunner"
-      subtitle = "A graduate of cyber security MSc also ethical hacking and cyber security BSc"
-      disclaimer = "Welcome to my digital playground! Join me as I learn, problem-solve, and share my experiences tackling projects, mastering CTFs, and navigating TryHackMe and HackTheBox. Together, we'll decode the mysteries of technology!"
+      title = "SnarlyHydra"
+      subtitle = "Edit me - Below picture"
+      disclaimer = "Edit me - longer"
       typeit = true
       social = true #whether to show social icons on homepage
 
@@ -124,10 +124,10 @@ enableRobotsTXT = true
       defaultHiddenFromHomePage = false
 
   [params.social]
-    GitHub = "SwiftLaggy"
-    Linkedin = "jamie-gunner"
-    Twitter = "SwiftLaggy"
-    Reddit = "SwiftLaggy_"
+    GitHub = "SnarlyHydra"
+    #Linkedin = ""
+    #Twitter = ""
+    #Reddit = ""
     RSS = true
 
   [params.page]
@@ -214,7 +214,7 @@ enableRobotsTXT = true
       images = ["/images/sw.jpeg"]
       # Publisher info
       [params.page.seo.publisher]
-        name = "Jamie Gunner"
+        name = "SnarlyHydra"
         logoUrl = "/images/sw.jpeg"
 
   [params.typeit]
