@@ -32,3 +32,9 @@ jobs:
         with:
           github_token: ${{ secrets.HUGODEPLOYKEY }}
           publish_dir: ./public
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./public
