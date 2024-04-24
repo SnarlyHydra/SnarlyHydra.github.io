@@ -31,4 +31,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           deploy_key: ${{ secrets.HUGODEPLOYKEY }}
+          BRANCH: gh-pages
           publish_dir: ./public
