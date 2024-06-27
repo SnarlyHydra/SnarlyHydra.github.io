@@ -52,7 +52,7 @@ enableRobotsTXT = true
   # How site will appear on mobile
     title = "SnarlyHydra"
     noFavicon = true
-    svgFavicon = "/images/Maliketh.png" Find image for you and take away hash
+    svgFavicon = "/images/Maliketh.png"
     # Android browser
     themeColor = "#ffffff"
     # Safari
@@ -113,8 +113,8 @@ enableRobotsTXT = true
       avatarURL = "/images/Maliketh.jpg"
       avatarAlt = "Temporary avatar"
       title = "SnarlyHydra"
-      subtitle = "Edit me - Below picture" # edit this
-      disclaimer = "Edit me - longer" # edit this
+      subtitle = "Aspiring Game Designer" # edit this
+      disclaimer = "Welcome to my digital playground! Join me as I learn, problem-solve, and share my experiences tackling projects, mastering game design/development, and navigating Unity, Unreal Engine, Udemy, and more. Let's explore the intricacies of game design together" # edit this
       typeit = true
       social = true #whether to show social icons on homepage
 
