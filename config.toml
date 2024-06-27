@@ -46,7 +46,7 @@ enableRobotsTXT = true
   gitRepo = "https://github.com/SnarlyHydra/SnarlyHydra.github.io"
   fingerprint = ""
   dateFormat = "2006-01-02"
-  images = ["/images/Maliketh.png"] #favicon (I think) Find image for you and take away hash
+  #images = ["/images/Maliketh.png"] #favicon (I think) Find image for you and take away hash
 
   [params.app]
   # How site will appear on mobile
