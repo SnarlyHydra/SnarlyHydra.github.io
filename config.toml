@@ -46,13 +46,13 @@ enableRobotsTXT = true
   gitRepo = "https://github.com/SnarlyHydra/SnarlyHydra.github.io"
   fingerprint = ""
   dateFormat = "2006-01-02"
-   #images = ["/images/Maliketh.svg"] #favicon (I think) Find image for you and take away hash
+  images = ["/images/Maliketh.png"] #favicon (I think) Find image for you and take away hash
 
   [params.app]
   # How site will appear on mobile
     title = "SnarlyHydra"
     noFavicon = true
-   # svgFavicon = "/images/sw.svg" Find image for you and take away hash
+    svgFavicon = "/images/Maliketh.png" Find image for you and take away hash
     # Android browser
     themeColor = "#ffffff"
     # Safari
@@ -79,7 +79,7 @@ enableRobotsTXT = true
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      #logo = "/images/sw.jpeg" Find image for you and take away hash
+      logo = "/images/Maliketh.jpg"
       name = "SnarlyHydra" # appears in header
       pre = ""
       post = ""
@@ -110,7 +110,7 @@ enableRobotsTXT = true
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      #avatarURL = "/images/sw.jpeg" Find image for you and take away hash
+      avatarURL = "/images/Maliketh.jpg"
       avatarAlt = "Temporary avatar"
       title = "SnarlyHydra"
       subtitle = "Edit me - Below picture" # edit this
@@ -211,11 +211,11 @@ enableRobotsTXT = true
 
     [params.page.seo]
       # image URL
-     # images = ["/images/sw.jpeg"] Find image for you and take away hash
+      images = ["/images/Maliketh.jpg"]
       # Publisher info
       [params.page.seo.publisher]
         name = "SnarlyHydra"
-      #  logoUrl = "/images/sw.jpeg" Find image for you and take away hash
+        logoUrl = "/images/Maliketh.jpg" 
 
   [params.typeit]
     speed = 50
