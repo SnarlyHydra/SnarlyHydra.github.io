@@ -211,11 +211,11 @@ enableRobotsTXT = true
 
     [params.page.seo]
       # image URL
-      images = ["/images/Maliketh.jpg"]
+      #images = ["/images/Maliketh.jpg"]
       # Publisher info
       [params.page.seo.publisher]
         name = "SnarlyHydra"
-        logoUrl = "/images/Maliketh.jpg" 
+        #logoUrl = "/images/Maliketh.jpg" 
 
   [params.typeit]
     speed = 50
