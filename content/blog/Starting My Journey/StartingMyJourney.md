@@ -1,3 +1,11 @@
+title	date	draft	author	authorLink	description
+Starting My Journey
+2024-06-17 19:22:00 +0100
+false
+SnarlyHydra
+https://github.com/SnarlyHydra
+Starting My Journey
+
 # Starting My Journey
 
 Welcome to my digital playground! My name is Kez, and I'm thrilled to share my journey into the fascinating world of game design. This is a zero-to-hero adventure, as I start with no prior experience in the art of game design/development.
