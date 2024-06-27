@@ -1,10 +1,11 @@
-title	date	draft	author	authorLink	description
-Starting My Journey
-2024-06-17 19:22:00 +0100
-false
-SnarlyHydra
-https://github.com/SnarlyHydra
-Starting My Journey
+---
+title: Starting My Journey
+date: 2024-06-17 19:22:00 +0100
+draft: false
+author: SnarlyHydra
+authorLink: https://github.com/SnarlyHydra
+description: Starting My Journey
+---
 
 # Starting My Journey
 
