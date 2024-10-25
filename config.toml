@@ -44,9 +44,9 @@ enableRobotsTXT = true
 
   [params.app]
   # How site will appear on mobile
-    title = "Jamie Gunner"
+    title = "SnarlyHydra
     noFavicon = true
-    svgFavicon = "/images/sw.svg"
+    svgFavicon = "/images/Maliketh.png"
     # Android browser
     themeColor = "#ffffff"
     # Safari
@@ -74,7 +74,7 @@ enableRobotsTXT = true
     [params.header.title]
       # URL of the LOGO
       #logo = "/images/sw.jpeg"
-      name = "Jamie Gunner" # appears in header
+      name = "SnarlyHydra" # appears in header
       pre = ""
       post = ""
       typeit = false
@@ -208,8 +208,8 @@ enableRobotsTXT = true
       images = ["/images/sw.jpeg"]
       # Publisher info
       [params.page.seo.publisher]
-        name = "Jamie Gunner"
-        logoUrl = "/images/sw.jpeg"
+        name = "SnarlyHydra"
+        logoUrl = "/images/Maliketh.png"
 
   [params.typeit]
     speed = 50
