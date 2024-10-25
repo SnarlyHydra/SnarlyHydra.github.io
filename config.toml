@@ -46,7 +46,7 @@ enableRobotsTXT = true
   # How site will appear on mobile
     title = "SnarlyHydra
     noFavicon = false
-    svgFavicon = "/images/Maliketh.jpg"
+    # svgFavicon = "/images/Maliketh.jpg"
     # Android browser
     themeColor = "#ffffff"
     # Safari
