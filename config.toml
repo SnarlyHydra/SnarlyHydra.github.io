@@ -14,7 +14,6 @@ enableRobotsTXT = true
     extended = true
     min = "0.134.1"
 
-
 [menu]
   [[menu.main]]  
     identifer = "Home"
