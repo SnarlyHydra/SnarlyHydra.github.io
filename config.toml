@@ -7,16 +7,17 @@ timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
 
+
 [module]
   [[module.imports]]
     path = 'github.com/hugo-fixit/FixIt'
   [module.hugoVersion]
     extended = true
     min = "0.134.1"
-
+    
 [menu]
   [[menu.main]]  
-    identifer = "Home"
+    identifer = "Home "
     name = "Home"
     url = "/"
     weight = 1
@@ -30,17 +31,7 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/blog/"
     weight = 3
- # [[menu.main]]
-  #  identifier = "tags"
-   # name = "Tags"
-    #url = "/tags/"
-    #weight = 3
-  #[[menu.main]]
-   # identifier = "categories"
-    #name = "Categories"
-    #url = "/categories/"
-    #weight = 4
-
+	
 [params]
   version = "0.3.13"
   description = "Website for SnarlyHydra."
@@ -49,13 +40,13 @@ enableRobotsTXT = true
   gitRepo = "https://github.com/SnarlyHydra/SnarlyHydra.github.io"
   fingerprint = ""
   dateFormat = "2006-01-02"
-  #images = ["/images/Maliketh.png"] #favicon (I think) Find image for you and take away hash
+  #images = ["/images/Maliketh.png"] 
 
   [params.app]
   # How site will appear on mobile
-    title = "SnarlyHydra"
+    title = "Jamie Gunner"
     noFavicon = true
-    svgFavicon = "/images/Maliketh.png"
+    svgFavicon = "/images/sw.svg"
     # Android browser
     themeColor = "#ffffff"
     # Safari
@@ -82,8 +73,8 @@ enableRobotsTXT = true
     mobileMode = "auto"
     [params.header.title]
       # URL of the LOGO
-      #logo = "/images/Maliketh.jpg"
-      name = "SnarlyHydra" # appears in header
+      #logo = "/images/sw.jpeg"
+      name = "Jamie Gunner" # appears in header
       pre = ""
       post = ""
       typeit = false
@@ -106,18 +97,18 @@ enableRobotsTXT = true
   [params.list]
     paginate = 20
     dateFormat = "01-02"
-    rss = 10
+  #  rss = 10
 
   [params.home]
     rss = 10
     [params.home.profile]
       enable = true
       # For the avatar pic on the homepage
-      avatarURL = "/images/Maliketh.jpg"
+      avatarURL = "/images/sw.jpeg"
       avatarAlt = "Temporary avatar"
-      title = "SnarlyHydra"
-      subtitle = "Aspiring Game Designer" # edit this
-      disclaimer = "Welcome to my digital playground! Join me as I learn, problem-solve, and share my experiences tackling projects, mastering game design/development, and navigating Unity, Unreal Engine, Udemy, and more. Let's explore the intricacies of game design together" # edit this
+      title = "Jamie Gunner"
+      subtitle = "Master Graduate and SOC Analyst"
+      disclaimer = "Welcome to my digital playground! Join me as I learn, problem-solve, and share my experiences tackling projects, mastering CTFs, and navigating TryHackMe and HackTheBox. Together, we'll decode the mysteries of technology!"
       typeit = true
       social = true #whether to show social icons on homepage
 
@@ -127,11 +118,11 @@ enableRobotsTXT = true
       defaultHiddenFromHomePage = false
 
   [params.social]
-    GitHub = "SnarlyHydra"
-    #Linkedin = ""
-    #Twitter = ""
-    #Reddit = ""
-    RSS = true
+    GitHub = "SwiftLaggy"
+    Linkedin = "jamie-gunner"
+    Twitter = "SwiftLaggy"
+    Reddit = "SwiftLaggy_"
+ #   RSS = true
 
   [params.page]
     hiddenFromHomePage = false
@@ -214,11 +205,11 @@ enableRobotsTXT = true
 
     [params.page.seo]
       # image URL
-      #images = ["/images/Maliketh.jpg"]
+      images = ["/images/sw.jpeg"]
       # Publisher info
       [params.page.seo.publisher]
-        name = "SnarlyHydra"
-        #logoUrl = "/images/Maliketh.jpg" 
+        name = "Jamie Gunner"
+        logoUrl = "/images/sw.jpeg"
 
   [params.typeit]
     speed = 50
@@ -292,7 +283,6 @@ enableRobotsTXT = true
 [privacy]
   #  privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
-    # ...
   [privacy.twitter]
     enableDNT = true
   [privacy.youtube]
@@ -311,9 +301,9 @@ enableRobotsTXT = true
 
 # Options to make hugo output files
 [outputs]
-  # 
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML"]
   term = ["HTML", "RSS"]
+
