@@ -42,17 +42,6 @@ enableRobotsTXT = true
   dateFormat = "2006-01-02"
   #images = ["/images/Maliketh.png"] 
 
-  [params.app]
-  # How site will appear on mobile
-    title = "SnarlyHydra
-    noFavicon = false
-    # Android browser
-    themeColor = "#ffffff"
-    # Safari
-    iconColor = "#5bbad5"
-    # Windows tile color
-    tileColor = "#da532c"
-
   [params.search]
     enable = true
     type = "lunr"
