@@ -45,7 +45,7 @@ enableRobotsTXT = true
   [params.app]
   # How site will appear on mobile
     title = "SnarlyHydra
-    noFavicon = true
+    noFavicon = false
     svgFavicon = "/images/Maliketh.jpg"
     # Android browser
     themeColor = "#ffffff"
