@@ -12,11 +12,11 @@ description: "My creation of donuts on Blender"
 
 Add shape-Mesh-Torus
 
-![Picture 1](/images/Donuts/ShadeSmooth.jgp)
+![Picture 1](/images/Donuts/ShadeSmooth.jpg)
 
 Right click- Shade Smooth
 
-![Picture 2](/images/Donuts/SubdivisionSurface.jgp)
+![Picture 2](/images/Donuts/SubdivisionSurface.jpg)
 
 Modifiers- Add Modifier- Generate- Subdivision Surface
 
