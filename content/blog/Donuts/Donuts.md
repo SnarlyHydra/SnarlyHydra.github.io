@@ -8,7 +8,7 @@ description: "My creation of donuts on Blender"
 ---
 
 
-![Picture 1](/images/donuts/torusshape.jpg)
+![Picture 1](/images/Donuts/Torusshape.jpg)
 
 Add shape-Mesh-Torus
 
