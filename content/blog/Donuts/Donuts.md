@@ -89,7 +89,6 @@ With Icing selected, go to the materials tab and create a new material. Change t
 Do the same for the donut. Choosing an orangey/yellow colour.
 
 ![Picture 16](/images/Donuts/Parenting.jpg)
-![[Parenting.jpg]]
 
 Select Icing. Shift+click Donut body. Ctrl+P and click Object (Keep Transform), to parent the Donut and Icing together.
 
