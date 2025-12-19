@@ -106,10 +106,10 @@ enableRobotsTXT = true
       defaultHiddenFromHomePage = false
 
   [params.social]
-    GitHub = "SwiftLaggy"
-    Linkedin = "jamie-gunner"
-    Twitter = "SwiftLaggy"
-    Reddit = "SwiftLaggy_"
+    GitHub = "SnarlyHydra"
+    Linkedin = "kerry-shrimpton"
+ #   Twitter = ""
+ #   Reddit = ""
  #   RSS = true
 
   [params.page]
