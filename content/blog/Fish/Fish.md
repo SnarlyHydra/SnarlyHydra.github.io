@@ -1,6 +1,6 @@
 ---
 title: "Fish's"
-date: 2025-12-19T22:50:00+01:00
+date: 2026-01-01T22:50:00+01:00
 draft: false
 author: "SnarlyHydra"
 authorLink: "https://github.com/SnarlyHydra"
