@@ -1,5 +1,5 @@
 ---
-title: "Fish's"
+title: "Fish"
 date: 2026-01-01T22:50:00+01:00
 draft: false
 author: "SnarlyHydra"
