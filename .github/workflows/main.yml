@@ -4,22 +4,28 @@ on:
   push:
     branches:
       - main  # Set a branch to deploy
-
+env:
+  using: 'node20'
+  main: 'main.js'
+  
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch Repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
-          submodules: false  # Managed via Hugo modules now
+          submodules: true
           fetch-depth: 0     # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.136.3'
+          hugo-version: 'latest'
           extended: true
+
+      - name: Install Dart Sass
+        run: sudo snap install dart-sass
 
       - name: Build
         run: hugo --minify --gc
