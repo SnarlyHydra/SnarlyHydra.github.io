@@ -1,28 +1,28 @@
 baseURL = "https://snarlyhydra.github.io/"
 defaultContentLanguage = "en"
-languageCode = "en"
+locale = "en"
 title = "SnarlyHydra" # This appears in tab bar
-Theme = "FixIt"
+theme = "FixIt"
 timeZone = "Europe/London"
 enableGitInfo = true
 enableRobotsTXT = true
 
-
 [module]
   [[module.imports]]
-    path = 'github.com/hugo-fixit/FixIt'
+    path = "github.com/hugo-fixit/FixIt"
+    version = "v0.3.13"
   [module.hugoVersion]
     extended = true
     min = "0.134.1"
     
 [menu]
   [[menu.main]]  
-    identifer = "Home "
+    identifier = "Home"
     name = "Home"
     url = "/"
     weight = 1
   [[menu.main]]  
-    identifer = "About"
+    identifier = "About"
     name = "About"
     url = "/about/"
     weight = 2
@@ -31,7 +31,7 @@ enableRobotsTXT = true
     name = "Blog"
     url = "/blog/"
     weight = 3
-	
+    
 [params]
   version = "0.3.13"
   description = "Website for SnarlyHydra."
@@ -295,3 +295,7 @@ enableRobotsTXT = true
   taxonomy = ["HTML"]
   term = ["HTML", "RSS"]
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
